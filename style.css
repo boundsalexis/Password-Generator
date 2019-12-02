@@ -1,0 +1,34 @@
+.content{
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+    background-color:pink;
+    height: 200px;
+    position:static;
+}
+textarea{
+    columns: 5;
+    rows:5;
+}
+.buttons{
+    border-top: 1px solid grey;
+    padding: 30px;
+}
+#copy{
+    text-align: right;
+}
+#generate{
+    text-align:left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    border-bottom: 1px solid grey;
+    text-align: left;
+}
+textarea{
+    border: 1px dotted grey;
+}
