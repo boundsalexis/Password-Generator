@@ -1,7 +1,8 @@
 # Password-Generator
 
 # Site Picture
-
+![Site](ipad.png)
+![Site](pixel.png)
 ## Technologies Used
 - HTML to create the Headings, and the buttons
 - Css to add color to the divs
