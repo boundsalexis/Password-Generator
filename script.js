@@ -12,10 +12,6 @@ var upCase = [];
 
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var special = ["!", "@", "#", "$", "%", "^", "&", "*", "?", "."];
-// console.log(lowCase);
-// console.log(upCase);
-// console.log(numbers);
-// console.log(special);
 function generate() {
     length = parseInt(prompt("How long would you like your password to be?"));
     password = "";
@@ -46,11 +42,8 @@ function generate() {
     } }
 if (specialChar === true || numChar === true || lowerCaseChar === true || upperCaseChar === true) {
     document.getElementById("display").value=password;
-
 }
-}
-
-    
+}   
     function copy(){
     var copiedText = document.getElementById("display");
     copiedText.select();
