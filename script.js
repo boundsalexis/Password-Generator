@@ -32,21 +32,27 @@ function generate() {
             password += numbers[Math.floor(Math.random()*10)];
         }
         if (lowerCaseChar === true && password.length < length) {
-            password += lowCase[Math.floor(Math.random()* lowCase.length +1)];
+            password += lowCase[Math.floor(Math.random()* lowCase.length)];
         }
         if  (upperCaseChar === true && password.length < length) {
-            password += upCase[Math.floor(Math.random()* upCase.length +1)];
+            password += upCase[Math.floor(Math.random()* upCase.length)];
         }
+        else if (specialChar === false && numChar === false && lowerCaseChar === false && upperCaseChar === false) {
+            for (i = 0; i < length; i ++) {
+                password += i;
+            }
+            alert("You must select at least one type of character!");
         } 
-    }
-        else {
-    alert("You must enter a number between 8 and 128");
-        }
- console.log(password);
- console.log(length);
+    } }
+if (specialChar === true || numChar === true || lowerCaseChar === true || upperCaseChar === true) {
+    document.getElementById("display").value=password;
+
 }
-    // console.log(password);
+}
+
     
     function copy(){
-    document.write(password);
+    var copiedText = document.getElementById("display");
+    copiedText.select();
+    document.execCommand("copy");
 }

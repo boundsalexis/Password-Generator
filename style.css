@@ -20,28 +20,22 @@ textarea{
 .buttons{
     border-top: 1px solid grey;
     position:static;
-    /* display: inline-block; */
-    /* width: 100%; */
     padding:20px;
   
 }
 #copy{
-    /* text-align: center; */
     background-color:grey;
     color:white;
     border-radius: 12px;
-    /* margin:10px 10px 10px 10%; */
     position: absolute;
     right: 25%;
     font-size:18px;
 
 }
 #generate{
-    /* text-align:center; */
     background-color:red;
     color:white;
     border-radius: 12px;
-    /* margin: 10px 10% 10px 10px; */
     position: absolute;
     left:25%;
     font-size:18px;
